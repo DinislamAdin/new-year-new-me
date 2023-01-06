@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header banner */
+
+.header {
+    background-image: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.header-text {
+    padding: 150px 50px 100px 850px;
+    text-align: left;
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+}
+
+.header-descripation {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.btn-primary {
+    width: 160px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #005FAC;
+    border-radius: 5px;
+}
+
+/* previous year failures  */
+
+.failures-section {
+    display: flex;
+    margin: 100px;
+
+}
+
+.failures-container-description {
+    padding: 200px 80px;
+}
+
+.failures-title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+    padding-bottom: 25px;
+}
+
+.failures-description {
+    font-size: 16px;
+    color: #444343;
+    padding-bottom: 25px;
+}
+
+.failures-list {
+    font-size: 16px;
+    color: #444343;
+}
+
+/* my-plans */
+
+.my-plane {
+    text-align: center;
+    padding: 100px;
+}
+
+.plane-title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+}
+
+.my-planes-section {
+    display: flex;
+    padding: 100px;
+}
+
+.plane-section {
+    padding: 30px;
+}
+
+.plane-name {
+    padding: 10px 0;
+    font-size: 30px;
+    color: #151414;
+}
+
+/* keep positive */
+
+.positive-section {
+    margin: 0 150px;
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    border-radius: 5px;
+}
+
+.positive-name {
+    padding: 100px 40px;
+    background: linear-gradient(90deg, #005FAC 1.98%, rgba(0, 95, 172, 0) 100%);
+    height: 15.5vh;
+    border-radius: 5px;
+}
+
+.positive-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.positive-btn {
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+/* footer  */
+
+.footer-name{
+    display: flex;
+    color: #FFFFFF;
+    background-color: black;
+    padding: 130px 100px;
+}
