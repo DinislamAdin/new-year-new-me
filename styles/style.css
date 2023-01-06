@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: work sans, 'Open Sans', sans-serif;
 }
 
 /* header banner */
@@ -28,12 +28,13 @@
 }
 
 .btn-primary {
-    width: 160px;
-    height: 64px;
     font-size: 20px;
     font-weight: 600;
     color: #005FAC;
     border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 20px;
 }
 
 /* previous year failures  */
@@ -113,8 +114,9 @@
 
 .positive-title {
     font-weight: 700;
-    font-size: 40px;
+    font-size: 35px;
     color: #FFFFFF;
+    padding: 0 500px 0 0;
 }
 
 .positive-btn {
@@ -127,9 +129,56 @@
 
 /* footer  */
 
-.footer-name{
+.footer-name {
     display: flex;
     color: #FFFFFF;
     background-color: black;
     padding: 130px 100px;
+}
+
+.footer-section {
+    padding: 0 150px;
+
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+
+.footer-description {
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+.contact {
+    padding-bottom: 20px;
+}
+
+.Subscribe {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.email {
+    color: #F3F3F3;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 10px;
+    margin: 20px 0;
+    background-color: black;
+    box-shadow: none;
+}
+
+.subscribe-button {
+    background: #005FAC;
+    padding: 12px 15px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
 }
